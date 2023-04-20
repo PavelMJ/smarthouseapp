@@ -1,38 +1,160 @@
 .App {
-  text-align: center;
+	width: 400px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(227, 226, 225);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+	background-color: #3B6FD2;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button{
+	border:none;
+	background-color: #3B6FD2;
+	color:aliceblue;
+	height: 100%;
+	font-size: 18px;
+	border-radius: 6px;
+	
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon{
+	cursor: pointer;
+	margin:  0 10px;
+	width: 35px;
+	height: 35px;
+
+}
+.page{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.place{
+	display: flex;
+	flex-flow: column;
+	/* align-items: center; */
+	border: solid 1px rgb(18, 16, 54);
+	border-radius:12px ;
+	width: 95%;
+	height: 450px;
+	margin: 10px;
+
+}
+.AddRoom{
+	width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButton{
+	cursor: pointer;
+	margin: 10px;
+	width: 180px;
+	height: 80px;
+	border: none;
+	border-radius: 12px;
+	color: azure;
+
+
+	background-color: #3B6FD2;
+
+}
+
+.roomButton{
+	margin: 3px;
+	width: 97%;
+	height: 60px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	border: none;
+	border-radius: 8px;
+	background-color: none;
+}
+
+.input{
+	width: 70%;
+	height: 35px;
+	margin:25px 5px ;
+	border-radius: 6px;
+	font-size: 18px;
+}
+
+.center{
+	justify-content: center;
+}
+
+.roomAdd{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.header{
+	display: flex;
+	flex-flow: row;
+	width: 95%;
+	height: 15%;
+	justify-content: center;
+	align-items: center;
+}
+
+.addDevice{
+	height: 110%;
+}
+
+.devices{
+	background-color: #ffff;
+}
+
+.toggle{
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	margin: 10px 0;
+	border-radius: 6px;
+}
+
+
+.flexRow{
+	display: flex;
+	flex-flow: row;
+	
+}
+
+.flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.trashcan{
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin: 8px;
+	transition: all 0.1s ease;
+}
+
+.trashcan:hover{
+	width: 38px;
+	height: 38px;
+	background: #e0e0e0;
+  filter: alpha(opacity=30%);
+	border-radius: 25px;
+	
+
 }
