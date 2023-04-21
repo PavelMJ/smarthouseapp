@@ -25,7 +25,18 @@ header{
 	height: 100%;
 	font-size: 18px;
 	border-radius: 6px;
+	transition: all .1s ease;
 	
+}
+
+
+.button:hover{
+	background-color: #5586e0;
+}
+
+.button:active{
+	transform: translateY(2px);
+
 }
 
 .icon{
@@ -34,6 +45,17 @@ header{
 	width: 35px;
 	height: 35px;
 
+}
+.home{
+	transition: all .1s ease;
+}
+
+.home:hover{
+	filter: drop-shadow(1px 1px 2px rgb(178, 221, 244));
+}
+
+.home:active{
+	transform: translateY(2px);
 }
 .page{
 	display: flex;
@@ -53,10 +75,23 @@ header{
 	width: 95%;
 	height: 450px;
 	margin: 10px;
+	align-items: center;
 	overflow-y:auto ;
 	overflow-x:hidden ;
 
 }
+
+.message{
+	cursor: pointer;
+	margin: 150px 0;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	color: #2f3030;
+
+}
+
+
 .AddRoom{
 	width: 100%;
 }
@@ -80,11 +115,21 @@ header{
 	border: none;
 	border-radius: 12px;
 	color: azure;
-
-
 	background-color: #3B6FD2;
+	transition: all .1s ease-in-out ;
 
 }
+
+.addButton:hover{
+	background-color: #578cec;
+	box-shadow: 1px 2px 2px rgb(28, 28, 28);
+
+}
+
+.addButton:active{
+	transform: translateY(2px);
+}
+
 
 .roomButton{
 	cursor: pointer;
@@ -196,7 +241,7 @@ header{
 	cursor: pointer;
 	width: 40px;
 	height: 40px;
-	margin: 8px;
+	margin: 13px;
 	transition: all 0.1s ease;
 }
 
@@ -207,6 +252,11 @@ header{
   filter: alpha(opacity=30%);
 	border-radius: 25px;
 	
+
+}
+
+option:hover{
+	background-color: #7a7878;
 
 }
 

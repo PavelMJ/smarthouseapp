@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 export default function Allrooms({ rooms, deleteRoom }) {
 
-	return (
-		<div className='AllRooms page'>
-			<p style={{ fontSize: '25px', margin: '0' }}>All Rooms</p>
-
-
-			<div className='place'>
-				{rooms.map((val, index) => {
+	console.log(rooms);
+	const showRooms=()=>{
+		if(rooms.length ===0){
+			return <Link to={'/AddRoom'} className='message' >Add new room in to <br />your Smart House </Link>
+		}
+		else{
+				return rooms.map((val, index) => {
 					return <div className='roomButton' style={{backgroundColor: val.color,}}>
 						<Link className='flexRow' to={`room${val.name}`} style={{textDecoration: 'none', cursor:'pointer'}} key={index}>
 							
@@ -27,7 +27,19 @@ export default function Allrooms({ rooms, deleteRoom }) {
 						<div className='flexCenter trashcan' onClick={() => { deleteRoom(val.name) }}><img style={{ width: '60%' }} src="img/trashcan.svg" alt="" /></div>
 
 					</div>
-				})}
+				})
+		}
+	}
+
+
+
+	return (
+		<div className='AllRooms page'>
+			<p style={{ fontSize: '25px', margin: '0' }}>All Rooms</p>
+
+
+			<div className='place'>
+			{showRooms()}
 			</div>
 			<Link to={'/AddRoom'}><button className='addButton'><img style={{ width: '60px', }} src="img/plus.svg" alt="" /></button></Link>
 

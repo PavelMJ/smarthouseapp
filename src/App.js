@@ -12,7 +12,7 @@ import NavBar from './components/NavBar';
 function App() {
 
 
-	const[rooms,setRooms]=useState([{ name: 'Salon', type: 'livingRoom', color: '#D23BBA', products:[{condition: false, type: "stereo"}]}])
+	const[rooms,setRooms]=useState([])
 
 	const createRoom = (name, type, color) => {
 		setRooms([...rooms, { name: name, type: type, color: color, products:[]}])

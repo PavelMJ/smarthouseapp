@@ -8,6 +8,7 @@ export default function Room({ index, name, type, color, products, addDevice, sw
 	const [id, setID] = useState(1)
 
 
+
 	// const [toggle, setToggle] = useState(false)
 	console.log(id);
 
@@ -23,10 +24,10 @@ export default function Room({ index, name, type, color, products, addDevice, sw
 					<option value="Speaker">Speaker</option>
 					<option value="Lamp">Lamp</option>
 					<option value="Air Conditioner">Air Conditioner</option>
-					<option value="Microwave">Microwave</option>
-					<option value="TV">TV</option>
-					<option value="Oven">Oven</option>
-					<option value="Stereo">Stereo System</option>
+					{type==='kitchen' && <option value="Microwave">Microwave</option>}
+					{type!=='bathroom' && <option value="TV">TV</option>}
+					{type==='kitchen' && <option value="Oven" >Oven</option>}
+					{type==='livingRoom' && <option value="Stereo">Stereo System</option>}
 					<option value="Boiler">Boiler</option>
 				</select>
 				<button onClick={() => {
