@@ -1,12 +1,12 @@
-<svg width="85" height="60" viewBox="0 0 85 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M13 1H72C78.6274 1 84 6.37258 84 13V33.7419C84 35.3988 82.6569 36.7419 81 36.7419H4C2.34315 36.7419 1 35.3988 1 33.7419V13C1 6.37258 6.37258 1 13 1Z" stroke="black" stroke-width="2"/>
-<line y1="25.129" x2="83.3" y2="25.129" stroke="black" stroke-width="2"/>
-<path d="M17.0853 31.8902C17.7834 30.7181 19.0469 30 20.4111 30H66.6695C67.8354 30 68.9392 30.5255 69.6743 31.4306V31.4306C71.7289 33.9605 69.9286 37.7419 66.6695 37.7419H20.4111C17.4078 37.7419 15.5485 34.4705 17.0853 31.8902V31.8902Z" fill="black"/>
-<ellipse cx="8.07495" cy="15.9677" rx="2.125" ry="2.41935" fill="black"/>
-<ellipse cx="15.7251" cy="15.9677" rx="2.125" ry="2.41935" fill="black"/>
-<ellipse cx="23.375" cy="15.9677" rx="2.125" ry="2.41935" fill="black"/>
-<rect x="20.3999" y="42.5806" width="1.7" height="17.4194" rx="0.85" fill="black"/>
-<rect x="34.8501" y="42.5806" width="1.7" height="17.4194" rx="0.85" fill="black"/>
-<rect x="49.3" y="42.5806" width="1.7" height="17.4194" rx="0.85" fill="black"/>
-<rect x="63.75" y="42.5806" width="1.7" height="17.4194" rx="0.85" fill="black"/>
+<svg width="85" height="62" viewBox="0 0 85 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 1H72C78.6274 1 84 6.37258 84 13V35C84 36.6569 82.6569 38 81 38H4C2.34315 38 1 36.6569 1 35V13C1 6.37258 6.37258 1 13 1Z" stroke="black" stroke-width="2"/>
+<line y1="26" x2="83.3" y2="26" stroke="black" stroke-width="2"/>
+<path d="M17.0568 33.0025C17.771 31.7635 19.0923 31 20.5224 31H66.5687C67.7959 31 68.9552 31.5634 69.7136 32.5282V32.5282C71.7762 35.1527 69.9067 39 66.5687 39H20.5224C17.4445 39 15.5199 35.6692 17.0568 33.0025V33.0025Z" fill="black"/>
+<ellipse cx="8.07495" cy="16.5" rx="2.125" ry="2.5" fill="black"/>
+<ellipse cx="15.7251" cy="16.5" rx="2.125" ry="2.5" fill="black"/>
+<ellipse cx="23.375" cy="16.5" rx="2.125" ry="2.5" fill="black"/>
+<rect x="20.3999" y="44" width="1.7" height="18" rx="0.85" fill="black"/>
+<rect x="34.8501" y="44" width="1.7" height="18" rx="0.85" fill="black"/>
+<rect x="49.3" y="44" width="1.7" height="18" rx="0.85" fill="black"/>
+<rect x="63.75" y="44" width="1.7" height="18" rx="0.85" fill="black"/>
 </svg>

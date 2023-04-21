@@ -53,11 +53,24 @@ header{
 	width: 95%;
 	height: 450px;
 	margin: 10px;
+	overflow-y:auto ;
+	overflow-x:hidden ;
 
 }
 .AddRoom{
 	width: 100%;
 }
+.colorMarker{
+	width: 15px;
+	height: 15px;
+	border-radius: 25px;
+}
+
+/* .color{
+	background-color: coral;
+	width: 15px;
+	height: 15px;
+} */
 
 .addButton{
 	cursor: pointer;
@@ -74,15 +87,40 @@ header{
 }
 
 .roomButton{
-	margin: 3px;
-	width: 97%;
-	height: 60px;
+	cursor: pointer;
+	margin: 10px;
+	width: 95%;
+	height: 70px;
 	display: flex;
 	flex-flow: row;
-	justify-content: space-between;
 	border: none;
-	border-radius: 8px;
-	background-color: none;
+	justify-content: space-between;
+	border-radius: 12px;
+	transition: all 0.2s ease-in-out;
+}
+
+.roomButton:hover{
+	transform: translateY(-2px);
+	box-shadow: 2px 2px 3px rgb(36, 36, 36);
+}
+
+.exe{
+	position: relative;
+	width: 20px;
+	height: 18px;
+	border-radius: 25px;
+	background-color: #7a7878;
+	border: solid 1px rgb(103, 103, 103);
+	font-size: 18px;
+	padding: auto;
+	left: 5px;
+	bottom: 2px;
+	color: #e0e0e0;
+	transition: all .1s ease;
+}
+
+.exe:hover{
+	background-color: #9c9a9a;
 }
 
 .input{
@@ -121,11 +159,24 @@ header{
 }
 
 .toggle{
+	position: relative;
 	cursor: pointer;
-	width: 20%;
-	height: 100%;
-	margin: 10px 0;
+	width: 70%;
+	height: 70%;
+	margin: 0px 0px;
 	border-radius: 6px;
+	left: 30px;
+	top: 10px;
+	transition: all .1s ease-in;
+}
+
+.toggle:hover{
+	transform: translateY(-2px);
+
+}
+
+.toggle:active{
+	transform: translateY(2px);
 }
 
 
@@ -158,3 +209,4 @@ header{
 	
 
 }
+

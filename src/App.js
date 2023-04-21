@@ -17,12 +17,25 @@ function App() {
 	const createRoom = (name, type, color) => {
 		setRooms([...rooms, { name: name, type: type, color: color, products:[]}])
 	}
-	
 
-	const addDevice=(index, typeOfDevice)=>{
-		let temp = {condition: false, type: typeOfDevice}
+	const deleteRoom =(roomName)=>{
+		let temp = rooms.filter(room => room.name !== roomName)
+		setRooms([...temp])
+
+	}
+
+
+	const addDevice=(id, index, typeOfDevice)=>{
+		let temp = {id: id, condition: false, type: typeOfDevice}
 		rooms[index].products.push(temp)
 		setRooms([...rooms])
+	}
+
+	const deleteDevice=(index, deviceID)=>{
+		let temp = rooms[index].products.filter(device=> device.id !== deviceID)
+		rooms[index].products =temp
+		setRooms([...rooms])
+
 	}
 
 	const switchCondition =(index, deviceIndex)=>{
@@ -31,7 +44,6 @@ function App() {
 		setRooms([...rooms])
 	}
 
-	console.log(rooms)
 
 	return (
 
@@ -41,7 +53,7 @@ function App() {
 				<NavBar/>
 
 				<Routes>
-					<Route path='/' element={<Allrooms rooms={rooms} />} />
+					<Route path='/' element={<Allrooms rooms={rooms} deleteRoom ={deleteRoom} />} />
 					<Route path='/AddRoom' element={<AddRoom createRoom={createRoom} />} />
 					{rooms.map((val, index) => {
 						return <Route path={`room${val.name}`} element={
@@ -54,6 +66,7 @@ function App() {
 							products={val.products} 
 							addDevice={addDevice}
 							switchCondition={switchCondition}
+							deleteDevice={deleteDevice}
 							/>}	key={index}
 							
 							/>

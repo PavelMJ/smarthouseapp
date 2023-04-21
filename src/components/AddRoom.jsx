@@ -13,7 +13,7 @@ export default function AddRoom({createRoom}) {
 	return (
 		<div className='AddRoom page'>
 			<div style={{ fontSize: '22px' }}>Add Room</div>
-			<div className='place center'>
+			<div className='place center flexCenter'>
 				<p style={{ fontSize: "20px", textAlign: 'center', color: '' }}>Parameters of the room</p>
 				<input onChange={(el)=>{
 					setName(el.target.value)
@@ -28,7 +28,7 @@ export default function AddRoom({createRoom}) {
 				</select>
 				<select style={{color: '#3B6FD2' }} onChange={(el)=>{setColor(el.target.value)}} className='input'>Room Color
 					<option style={{ color: '#3B6FD2' }} value="">Room Color</option>
-					<option  value="#FF623F">orange <div style={{backgroundColor:'#FF623F'}}></div> </option>
+					<option style={{backgroundColor:'#FF623F'}} value="#FF623F">orange </option>
 					<option style={{backgroundColor:'#5CC1D7'}} value="#5CC1D7">cyan</option>
 					<option style={{backgroundColor:'#53DB32'}} value="#53DB32">green</option>
 					<option style={{backgroundColor:'#A83AEC'}} value="#A83AEC">violett</option>

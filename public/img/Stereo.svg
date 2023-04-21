@@ -1,10 +1,10 @@
-<svg width="80" height="71" viewBox="0 0 80 71" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="30.5" y="2.5" width="46.4907" height="65.461" stroke="black" stroke-width="5"/>
-<circle cx="54.1971" cy="44.2639" r="16.4703" stroke="black" stroke-width="5"/>
-<circle cx="54.1969" cy="44.2639" r="5.42007" fill="black"/>
-<rect x="37.9368" y="9.9368" width="31.6171" height="7.22677" fill="black"/>
-<rect x="2" y="23" width="22" height="45" stroke="black" stroke-width="4"/>
-<path d="M20.5 56.5C20.5 60.2864 17.2241 63.5 13 63.5C8.77593 63.5 5.5 60.2864 5.5 56.5C5.5 52.7136 8.77593 49.5 13 49.5C17.2241 49.5 20.5 52.7136 20.5 56.5Z" stroke="black" stroke-width="3"/>
-<circle cx="13" cy="57" r="3" fill="black"/>
-<rect x="4.91895" y="29" width="15.3813" height="5.00315" fill="black"/>
+<svg width="85" height="62" viewBox="0 0 85 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="35.1377" y="2.5" width="40.3077" height="57" stroke="black" stroke-width="5"/>
+<circle cx="55.6889" cy="38.9487" r="14.1923" stroke="black" stroke-width="5"/>
+<circle cx="55.6889" cy="38.9487" r="4.76923" fill="black"/>
+<rect x="41.3813" y="8.74359" width="27.8205" height="6.35897" fill="black"/>
+<rect x="10" y="20.4783" width="18.8779" height="39.1161" stroke="black" stroke-width="4"/>
+<path d="M25.8583 49.7155C25.8583 52.9381 23.0663 55.6948 19.4391 55.6948C15.8119 55.6948 13.0198 52.9381 13.0198 49.7155C13.0198 46.4928 15.8119 43.7362 19.4391 43.7362C23.0663 43.7362 25.8583 46.4928 25.8583 49.7155Z" stroke="black" stroke-width="3"/>
+<circle cx="19.4391" cy="50.1554" r="2.63976" fill="black"/>
+<rect x="12.3284" y="25.5177" width="13.5343" height="4.40237" fill="black"/>
 </svg>
